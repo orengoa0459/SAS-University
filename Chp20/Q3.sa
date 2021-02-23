@@ -1,0 +1,8 @@
+
+
+
+title "Bar Chart for the Variable Status"; 
+proc sgplot data = SASHelp.Heart; 
+vbar Status; 
+run;
+
